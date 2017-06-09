@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## How to set a Drupal 7 site to use an install profile
 
@@ -14,4 +14,3 @@ Recently I had a project where we needed to switch from a standard Drupal 7 site
 To set the install profile of the site, simply run `drush vset --exact install_profile {YOUR_INSTALL_PROFILE}`
 
 Then remap modules and themes to use their appropriate analogues in the install profile. Rebuild the registry by running `drush rr`. Now all references to `sites/all/modules` are replaced by `profiles/{YOUR_INSTALL_PROFILE}/modules`.
-
