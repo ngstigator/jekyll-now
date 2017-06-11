@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-## Why?
 
 Recently I had a project where we needed to switch from a standard Drupal 7 site configuration to use an install profile instead. This was done to facilitate core and contrib updates via [Drush](https://www.drupal.org/project/drush).
 
