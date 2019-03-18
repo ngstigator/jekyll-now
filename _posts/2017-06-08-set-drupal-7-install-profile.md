@@ -12,4 +12,10 @@ Recently I had a project where we needed to switch from a standard Drupal 7 site
 
 To set the install profile of the site, simply run `drush vset --exact install_profile {YOUR_INSTALL_PROFILE}`
 
+Make your install profile the active profile in the database:
+```
+UPDATE system set status=0 WHERE name='standard';
+UPDATE system set status=1 WHERE name='{YOUR)INSTALL_PROFILE}';
+```
+
 Then remap modules and themes to use their appropriate analogues in the install profile. Rebuild the registry by running `drush rr`. Now all references to `sites/all/modules` are replaced by `profiles/{YOUR_INSTALL_PROFILE}/modules`.
