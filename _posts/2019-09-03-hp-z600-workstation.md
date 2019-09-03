@@ -1,6 +1,8 @@
 ---
 published: true
 ---
+HP workstations are built like tanks!
+
 ## New (to me) HP Z600 Workstation!
 
 Although I got this dual Xeon 12 core / 24 thread beast about a year ago, it was mostly used as a Window 10 Pro machine running an Ubuntu Virtualbox VM to control Ansible development, and other things that needed Windows e.g. gaming. However, I soon ran into the fact that Virtualbox only supports passthrough virtualization with AMD processors, meaning that I wouldn't be able to use `docker-machine` to create docker hosts without losing the convenience of Virtualbox by going with Hyper-V... at least without rebooting.
