@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## New (to me) HP Z600 Workstation!
 
