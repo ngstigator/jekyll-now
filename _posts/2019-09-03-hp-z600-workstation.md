@@ -1,5 +1,6 @@
 ---
 published: true
+title: HP Z600 Workstation
 ---
 HP workstations are built like tanks!
 
