@@ -1,6 +1,8 @@
 ---
 published: false
 ---
+Desktops are cattle, not pets.
+
 ## Disposable Development Desktops using Vagrant and Ansible
 
 If you're like me, you live in morbid fear of messing up your development environment. Having to uninstall tools, reinstall them again, or worse, having to redo your entire OS because you've arrived at an unrecoverable state is the bane of an IT worker's existence.
