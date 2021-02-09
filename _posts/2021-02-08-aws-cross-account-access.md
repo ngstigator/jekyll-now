@@ -1,7 +1,5 @@
 ---
-published: false
----
----
+published: true
 title: AWS Cross Account Access
 ---
 It's all about trust.
