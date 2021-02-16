@@ -12,18 +12,17 @@ Recently I had need of accessing staging resources from my development account. 
 
 My need was full access to staging S3 buckets, so I create a role named "role-staging-s3" with the following policy:
 
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "s3:*",
-            "Resource": "*"
-        }
-    ]
-}
-```
+	{
+    	"Version": "2012-10-17",
+		"Statement": [
+			{
+				"Effect": "Allow",
+				"Action": "s3:*",
+				"Resource": "*"
+			}
+		]
+	}
+
 
 To keep things simple, I've left access pretty wide open. More fine-grained permissions are left as an exercise for the reader.
 
