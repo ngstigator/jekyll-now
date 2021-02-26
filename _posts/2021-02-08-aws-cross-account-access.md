@@ -87,4 +87,4 @@ aws_secret_access_key=<DEV_USER_AWS_ACCESS_SECRET>
 aws --profile staging-s3 s3 ls
 ```
 
-All buckets should be listed since we allowed all S3 permissions.
+All buckets in the staging account should be listed since we allowed all S3 permissions.
